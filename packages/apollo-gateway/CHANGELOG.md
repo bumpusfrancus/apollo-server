@@ -6,6 +6,10 @@
 
 - _Nothing yet! Stay tuned._
 
+## 0.16.4
+
+- __NEW__: Provide the `requestContext` as an argument to the experimental callback function `experimental_didResolveQueryPlan`. [#4173](https://github.com/apollographql/apollo-server/pull/4173)
+
 ## 0.16.3
 
 - This updates a dependency of `apollo-server-core` that is only used for its TypeScript typings, not for any runtime dependencies.  The reason for the upgrade is that the `apollo-server-core` package (again, used only for types!) was affected by a GitHub Security Advisory.  [See the related `CHANGELOG.md` for Apollo Server for more details, including a link to the advisory](https://github.com/apollographql/apollo-server/blob/354d9910e1c87af93c7d50263a28554b449e48db/CHANGELOG.md#v2142).
